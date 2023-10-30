@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="logo.png" alt="Cricket Logo">
+        <h1>Cricket Tournament Hosting</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Tournaments</a></li>
+            <li><a href="#" id="register-button">Register</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="registration-section">
+            <h2>Register Your Team</h2>
+            <form id="registration-form">
+                <label for="team-captain">Team Captain:</label>
+                <input type="text" id="team-captain" required>
+                <br>
+                <label for="player-names">Player Names (comma-separated):</label>
+                <input type="text" id="player-names" required>
+                <br>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        &copy; 2023 Cricket Tournament Hosting
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

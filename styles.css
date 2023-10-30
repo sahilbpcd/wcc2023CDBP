@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #0047ab;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+header img {
+    width: 100px;
+    height: 100px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #0047ab;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    margin: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+main {
+    margin: 20px;
+}
+
+#registration-section {
+    display: none;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input, button {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+}
+
+button {
+    background-color: #0047ab;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #00296e;
+}
